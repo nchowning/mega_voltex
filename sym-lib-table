@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name mega_voltex-rescue)(type Legacy)(uri ${KIPRJMOD}/mega_voltex-rescue.lib)(options "")(descr ""))
+  (lib (name mega_voltex)(type Legacy)(uri ${KIPRJMOD}/mega_voltex.lib)(options "")(descr ""))
 )
