@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:mega_voltex-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mega_voltex-rescue:Arduino_Mega_Header-w_connectors J1
+L w_connectors:Arduino_Mega_Header J1
 U 1 1 5BD9EE5B
 P 5200 3950
 F 0 "J1" H 5200 5337 60  0000 C CNN
@@ -249,4 +248,46 @@ Text GLabel 6600 3450 2    20   UnSpc ~ 0
 GND
 Text GLabel 7800 2800 2    20   UnSpc ~ 0
 GND
+Text GLabel 6200 3550 0    20   UnSpc ~ 0
+GND
+Text GLabel 7000 3550 0    20   UnSpc ~ 0
+GND
+Text GLabel 7800 3550 0    20   UnSpc ~ 0
+GND
+Text GLabel 6600 4200 0    20   UnSpc ~ 0
+GND
+Text GLabel 8200 4200 0    20   UnSpc ~ 0
+GND
+Text GLabel 8600 3550 0    20   UnSpc ~ 0
+GND
+Text GLabel 6200 3450 0    20   Output ~ 0
+BT_A
+Text GLabel 7000 3450 0    20   Output ~ 0
+BT_B
+Text GLabel 7800 3450 0    20   Output ~ 0
+BT_C
+Text GLabel 8600 3450 0    20   Output ~ 0
+BT_D
+Text GLabel 6600 4100 0    20   Output ~ 0
+BT_FXL
+Text GLabel 8200 4100 0    20   Output ~ 0
+BT_FXR
+Text GLabel 6600 3550 2    20   Input ~ 0
+LT_A
+Text GLabel 7400 3550 2    20   Input ~ 0
+LT_B
+Text GLabel 8200 3550 2    20   Input ~ 0
+LT_C
+Text GLabel 9000 3550 2    20   Input ~ 0
+LT_D
+Text GLabel 7000 4200 2    20   Input ~ 0
+LT_FXL
+Text GLabel 8600 4200 2    20   Input ~ 0
+LT_FXR
+Text GLabel 7800 2900 2    20   Input ~ 0
+LT_START
+Text GLabel 7400 2900 0    20   Input ~ 0
+GND
+Text GLabel 7400 2800 0    20   Output ~ 0
+BT_START
 $EndSCHEMATC

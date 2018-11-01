@@ -124,7 +124,7 @@
   (pad 3 thru_hole oval (at -16.51 24.13) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at -19.05 24.13) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole oval (at -21.59 24.13) (size 1.524 2.19964) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (model walter/conn_misc/arduino_mega_header.wrl
+  (model arduino_mega_header.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
