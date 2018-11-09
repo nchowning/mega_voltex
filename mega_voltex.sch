@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mega_voltex
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -369,190 +370,51 @@ VOLR_B
 $Comp
 L w_connectors:HEADER_7 J7
 U 1 1 5BDAB023
-P 9750 3550
-F 0 "J7" H 9877 3603 60  0000 L CNN
-F 1 "HEADER_7" H 9877 3497 60  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 9750 3550 60  0001 C CNN
-F 3 "" H 9750 3550 60  0000 C CNN
-	1    9750 3550
+P 8950 3650
+F 0 "J7" H 9077 3703 60  0000 L CNN
+F 1 "HEADER_7" H 9077 3597 60  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 8950 3650 60  0001 C CNN
+F 3 "" H 8950 3650 60  0000 C CNN
+	1    8950 3650
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 3850 0    20   Input ~ 0
+Text GLabel 8850 3950 0    20   Input ~ 0
 K1_A
-Text GLabel 9650 3750 0    20   Input ~ 0
+Text GLabel 8850 3850 0    20   Input ~ 0
 K1_B
-Text GLabel 9650 3650 0    20   Input ~ 0
+Text GLabel 8850 3750 0    20   Input ~ 0
 K1_C
-Text GLabel 9650 3550 0    20   Input ~ 0
+Text GLabel 8850 3650 0    20   Input ~ 0
 K1_1
-Text GLabel 9650 3450 0    20   Input ~ 0
+Text GLabel 8850 3550 0    20   Input ~ 0
 K1_2
-Text GLabel 9650 3350 0    20   Input ~ 0
+Text GLabel 8850 3450 0    20   Input ~ 0
 K1_3
-Text GLabel 9650 3250 0    20   Input ~ 0
+Text GLabel 8850 3350 0    20   Input ~ 0
 K1_4
 $Comp
 L w_connectors:HEADER_5 J8
 U 1 1 5BDAD4F2
-P 9750 4300
-F 0 "J8" H 9877 4353 60  0000 L CNN
-F 1 "HEADER_5" H 9877 4247 60  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 9750 4300 60  0001 C CNN
-F 3 "" H 9750 4300 60  0000 C CNN
-	1    9750 4300
+P 8950 4400
+F 0 "J8" H 9077 4453 60  0000 L CNN
+F 1 "HEADER_5" H 9077 4347 60  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 8950 4400 60  0001 C CNN
+F 3 "" H 8950 4400 60  0000 C CNN
+	1    8950 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 4100 0    20   UnSpc ~ 0
+Text GLabel 8850 4200 0    20   UnSpc ~ 0
 GND
-Text GLabel 9650 4200 0    20   Output ~ 0
+Text GLabel 8850 4300 0    20   Output ~ 0
 5V
-Text GLabel 9650 4500 0    20   Input ~ 0
+Text GLabel 8850 4600 0    20   Input ~ 0
 R1_TX
-Text GLabel 9650 4400 0    20   Input ~ 0
+Text GLabel 8850 4500 0    20   Input ~ 0
 R1_RX
-Text GLabel 9650 4300 0    20   Input ~ 0
+Text GLabel 8850 4400 0    20   Input ~ 0
 R1_DET
 Text GLabel 2200 3050 0    20   Output ~ 0
 5V
-$Comp
-L w_connectors:HEADER_4 J5
-U 1 1 5BDAEFFA
-P 8750 4600
-F 0 "J5" H 8877 4653 60  0000 L CNN
-F 1 "HEADER_4" H 8877 4547 60  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8750 4600 60  0001 C CNN
-F 3 "" H 8750 4600 60  0000 C CNN
-	1    8750 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L w_connectors:HEADER_4 J4
-U 1 1 5BDAF063
-P 8750 4100
-F 0 "J4" H 8877 4153 60  0000 L CNN
-F 1 "HEADER_4" H 8877 4047 60  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8750 4100 60  0001 C CNN
-F 3 "" H 8750 4100 60  0000 C CNN
-	1    8750 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L w_connectors:HEADER_4 J3
-U 1 1 5BDAF0CF
-P 8750 3600
-F 0 "J3" H 8877 3653 60  0000 L CNN
-F 1 "HEADER_4" H 8877 3547 60  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8750 3600 60  0001 C CNN
-F 3 "" H 8750 3600 60  0000 C CNN
-	1    8750 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L w_connectors:HEADER_4 J2
-U 1 1 5BDAF29D
-P 8750 3100
-F 0 "J2" H 8877 3153 60  0000 L CNN
-F 1 "HEADER_4" H 8877 3047 60  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8750 3100 60  0001 C CNN
-F 3 "" H 8750 3100 60  0000 C CNN
-	1    8750 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L w_connectors:HEADER_4 J1
-U 1 1 5BDAF311
-P 8750 2600
-F 0 "J1" H 8877 2653 60  0000 L CNN
-F 1 "HEADER_4" H 8877 2547 60  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 8750 2600 60  0001 C CNN
-F 3 "" H 8750 2600 60  0000 C CNN
-	1    8750 2600
-	1    0    0    -1  
-$EndComp
-Text GLabel 8650 2450 0    20   UnSpc ~ 0
-GND
-Text GLabel 8650 2950 0    20   UnSpc ~ 0
-GND
-Text GLabel 8650 3450 0    20   UnSpc ~ 0
-GND
-Text GLabel 8650 3950 0    20   UnSpc ~ 0
-GND
-Text GLabel 8650 4450 0    20   UnSpc ~ 0
-GND
-Text GLabel 8650 2550 0    20   UnSpc ~ 0
-LED1_R
-Text GLabel 8650 2650 0    20   UnSpc ~ 0
-LED1_G
-Text GLabel 8650 2750 0    20   UnSpc ~ 0
-LED1_B
-Text GLabel 8650 3050 0    20   UnSpc ~ 0
-LED2_R
-Text GLabel 8650 3150 0    20   UnSpc ~ 0
-LED2_G
-Text GLabel 8650 3250 0    20   UnSpc ~ 0
-LED2_B
-Text GLabel 8650 3550 0    20   UnSpc ~ 0
-LED3_R
-Text GLabel 8650 3650 0    20   UnSpc ~ 0
-LED3_G
-Text GLabel 8650 3750 0    20   UnSpc ~ 0
-LED3_B
-Text GLabel 8650 4050 0    20   UnSpc ~ 0
-LED4_R
-Text GLabel 8650 4150 0    20   UnSpc ~ 0
-LED4_G
-Text GLabel 8650 4250 0    20   UnSpc ~ 0
-LED4_B
-Text GLabel 8650 4550 0    20   UnSpc ~ 0
-LED5_R
-Text GLabel 8650 4650 0    20   UnSpc ~ 0
-LED5_G
-Text GLabel 8650 4750 0    20   UnSpc ~ 0
-LED5_B
-$Comp
-L Device:LED_RGB D2
-U 1 1 5BDB2C83
-P 5250 5500
-F 0 "D2" H 5250 5997 50  0000 C CNN
-F 1 "LED_RGB" H 5250 5906 50  0000 C CNN
-F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 5250 5450 50  0001 C CNN
-F 3 "~" H 5250 5450 50  0001 C CNN
-	1    5250 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q1
-U 1 1 5BDB515E
-P 1700 3450
-F 0 "Q1" H 1891 3496 50  0000 L CNN
-F 1 "PN2222A" H 1891 3405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1900 3375 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1700 3450 50  0001 L CNN
-	1    1700 3450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q2
-U 1 1 5BDB5463
-P 1200 3800
-F 0 "Q2" H 1391 3846 50  0000 L CNN
-F 1 "PN2222A" H 1391 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1400 3725 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1200 3800 50  0001 L CNN
-	1    1200 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q3
-U 1 1 5BDB551F
-P 1700 4150
-F 0 "Q3" H 1891 4196 50  0000 L CNN
-F 1 "PN2222A" H 1891 4105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1900 4075 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1700 4150 50  0001 L CNN
-	1    1700 4150
-	-1   0    0    -1  
-$EndComp
 Text GLabel 1600 4350 3    20   UnSpc ~ 0
 GND
 Text GLabel 1100 4000 3    20   UnSpc ~ 0
@@ -569,217 +431,306 @@ Wire Wire Line
 	2200 3850 1900 3850
 Wire Wire Line
 	1900 3850 1900 4150
-Text GLabel 5050 5300 0    20   UnSpc ~ 0
+Text GLabel 5600 5300 2    20   UnSpc ~ 0
 LED6_R
-Text GLabel 5050 5500 0    20   UnSpc ~ 0
+Text GLabel 5600 5500 2    20   UnSpc ~ 0
 LED6_G
-Text GLabel 5050 5700 0    20   UnSpc ~ 0
+Text GLabel 5600 5700 2    20   UnSpc ~ 0
 LED6_B
-$Comp
-L Device:LED_RGB D1
-U 1 1 5BDB71E8
-P 4350 5500
-F 0 "D1" H 4350 5997 50  0000 C CNN
-F 1 "LED_RGB" H 4350 5906 50  0000 C CNN
-F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 4350 5450 50  0001 C CNN
-F 3 "~" H 4350 5450 50  0001 C CNN
-	1    4350 5500
-	1    0    0    -1  
-$EndComp
-Text GLabel 4150 5300 0    20   UnSpc ~ 0
+Text GLabel 4700 5300 2    20   UnSpc ~ 0
 LED6_R
-Text GLabel 4150 5500 0    20   UnSpc ~ 0
+Text GLabel 4700 5500 2    20   UnSpc ~ 0
 LED6_G
-Text GLabel 4150 5700 0    20   UnSpc ~ 0
+Text GLabel 4700 5700 2    20   UnSpc ~ 0
 LED6_B
 $Comp
 L Device:R_Small_US R8
 U 1 1 5BDB783F
-P 4650 5300
-F 0 "R8" V 4855 5300 50  0000 C CNN
-F 1 "R_Small_US" V 4764 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4650 5300 50  0001 C CNN
-F 3 "~" H 4650 5300 50  0001 C CNN
-	1    4650 5300
-	0    -1   -1   0   
+P 4200 5300
+F 0 "R8" V 4405 5300 50  0000 C CNN
+F 1 "R_Small_US" V 4314 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4200 5300 50  0001 C CNN
+F 3 "~" H 4200 5300 50  0001 C CNN
+	1    4200 5300
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R9
 U 1 1 5BDB7A70
-P 4650 5500
-F 0 "R9" V 4855 5500 50  0000 C CNN
-F 1 "R_Small_US" V 4764 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4650 5500 50  0001 C CNN
-F 3 "~" H 4650 5500 50  0001 C CNN
-	1    4650 5500
-	0    -1   -1   0   
+P 4200 5500
+F 0 "R9" V 4405 5500 50  0000 C CNN
+F 1 "R_Small_US" V 4314 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4200 5500 50  0001 C CNN
+F 3 "~" H 4200 5500 50  0001 C CNN
+	1    4200 5500
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R10
 U 1 1 5BDB7AD5
-P 4650 5700
-F 0 "R10" V 4855 5700 50  0000 C CNN
-F 1 "R_Small_US" V 4764 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4650 5700 50  0001 C CNN
-F 3 "~" H 4650 5700 50  0001 C CNN
-	1    4650 5700
-	0    -1   -1   0   
+P 4200 5700
+F 0 "R10" V 4405 5700 50  0000 C CNN
+F 1 "R_Small_US" V 4314 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4200 5700 50  0001 C CNN
+F 3 "~" H 4200 5700 50  0001 C CNN
+	1    4200 5700
+	0    1    -1   0   
 $EndComp
-Text GLabel 4750 5300 2    20   Input ~ 0
+Text GLabel 4100 5300 0    20   Input ~ 0
 12V
-Text GLabel 4750 5500 2    20   Input ~ 0
+Text GLabel 4100 5500 0    20   Input ~ 0
 12V
-Text GLabel 4750 5700 2    20   Input ~ 0
+Text GLabel 4100 5700 0    20   Input ~ 0
 12V
 $Comp
 L Device:R_Small_US R11
 U 1 1 5BDB7D8E
-P 5550 5300
-F 0 "R11" V 5755 5300 50  0000 C CNN
-F 1 "R_Small_US" V 5664 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5550 5300 50  0001 C CNN
-F 3 "~" H 5550 5300 50  0001 C CNN
-	1    5550 5300
-	0    -1   -1   0   
+P 5100 5300
+F 0 "R11" V 5305 5300 50  0000 C CNN
+F 1 "R_Small_US" V 5214 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 5300 50  0001 C CNN
+F 3 "~" H 5100 5300 50  0001 C CNN
+	1    5100 5300
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R12
 U 1 1 5BDB7D95
-P 5550 5500
-F 0 "R12" V 5755 5500 50  0000 C CNN
-F 1 "R_Small_US" V 5664 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5550 5500 50  0001 C CNN
-F 3 "~" H 5550 5500 50  0001 C CNN
-	1    5550 5500
-	0    -1   -1   0   
+P 5100 5500
+F 0 "R12" V 5305 5500 50  0000 C CNN
+F 1 "R_Small_US" V 5214 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 5500 50  0001 C CNN
+F 3 "~" H 5100 5500 50  0001 C CNN
+	1    5100 5500
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R13
 U 1 1 5BDB7D9C
-P 5550 5700
-F 0 "R13" V 5755 5700 50  0000 C CNN
-F 1 "R_Small_US" V 5664 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5550 5700 50  0001 C CNN
-F 3 "~" H 5550 5700 50  0001 C CNN
-	1    5550 5700
-	0    -1   -1   0   
+P 5100 5700
+F 0 "R13" V 5305 5700 50  0000 C CNN
+F 1 "R_Small_US" V 5214 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 5700 50  0001 C CNN
+F 3 "~" H 5100 5700 50  0001 C CNN
+	1    5100 5700
+	0    1    -1   0   
 $EndComp
-Text GLabel 5650 5300 2    20   Input ~ 0
+Text GLabel 5000 5300 0    20   Input ~ 0
 12V
-Text GLabel 5650 5500 2    20   Input ~ 0
+Text GLabel 5000 5500 0    20   Input ~ 0
 12V
-Text GLabel 5650 5700 2    20   Input ~ 0
+Text GLabel 5000 5700 0    20   Input ~ 0
 12V
-$Comp
-L Device:LED_RGB D4
-U 1 1 5BDB8738
-P 7050 5500
-F 0 "D4" H 7050 5997 50  0000 C CNN
-F 1 "LED_RGB" H 7050 5906 50  0000 C CNN
-F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 7050 5450 50  0001 C CNN
-F 3 "~" H 7050 5450 50  0001 C CNN
-	1    7050 5500
-	1    0    0    -1  
-$EndComp
-Text GLabel 6850 5300 0    20   UnSpc ~ 0
+Text GLabel 7500 5300 2    20   UnSpc ~ 0
 LED6_R
-Text GLabel 6850 5500 0    20   UnSpc ~ 0
+Text GLabel 7500 5500 2    20   UnSpc ~ 0
 LED6_G
-Text GLabel 6850 5700 0    20   UnSpc ~ 0
+Text GLabel 7500 5700 2    20   UnSpc ~ 0
 LED6_B
-$Comp
-L Device:LED_RGB D3
-U 1 1 5BDB8742
-P 6150 5500
-F 0 "D3" H 6150 5997 50  0000 C CNN
-F 1 "LED_RGB" H 6150 5906 50  0000 C CNN
-F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 6150 5450 50  0001 C CNN
-F 3 "~" H 6150 5450 50  0001 C CNN
-	1    6150 5500
-	1    0    0    -1  
-$EndComp
-Text GLabel 5950 5300 0    20   UnSpc ~ 0
+Text GLabel 6550 5300 2    20   UnSpc ~ 0
 LED6_R
-Text GLabel 5950 5500 0    20   UnSpc ~ 0
+Text GLabel 6550 5500 2    20   UnSpc ~ 0
 LED6_G
-Text GLabel 5950 5700 0    20   UnSpc ~ 0
+Text GLabel 6550 5700 2    20   UnSpc ~ 0
 LED6_B
 $Comp
 L Device:R_Small_US R14
 U 1 1 5BDB874C
-P 6450 5300
-F 0 "R14" V 6655 5300 50  0000 C CNN
-F 1 "R_Small_US" V 6564 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6450 5300 50  0001 C CNN
-F 3 "~" H 6450 5300 50  0001 C CNN
-	1    6450 5300
-	0    -1   -1   0   
+P 6050 5300
+F 0 "R14" V 6255 5300 50  0000 C CNN
+F 1 "R_Small_US" V 6164 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 5300 50  0001 C CNN
+F 3 "~" H 6050 5300 50  0001 C CNN
+	1    6050 5300
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R15
 U 1 1 5BDB8753
-P 6450 5500
-F 0 "R15" V 6655 5500 50  0000 C CNN
-F 1 "R_Small_US" V 6564 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6450 5500 50  0001 C CNN
-F 3 "~" H 6450 5500 50  0001 C CNN
-	1    6450 5500
-	0    -1   -1   0   
+P 6050 5500
+F 0 "R15" V 6255 5500 50  0000 C CNN
+F 1 "R_Small_US" V 6164 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 5500 50  0001 C CNN
+F 3 "~" H 6050 5500 50  0001 C CNN
+	1    6050 5500
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R16
 U 1 1 5BDB875A
-P 6450 5700
-F 0 "R16" V 6655 5700 50  0000 C CNN
-F 1 "R_Small_US" V 6564 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6450 5700 50  0001 C CNN
-F 3 "~" H 6450 5700 50  0001 C CNN
-	1    6450 5700
-	0    -1   -1   0   
+P 6050 5700
+F 0 "R16" V 6255 5700 50  0000 C CNN
+F 1 "R_Small_US" V 6164 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 5700 50  0001 C CNN
+F 3 "~" H 6050 5700 50  0001 C CNN
+	1    6050 5700
+	0    1    -1   0   
 $EndComp
-Text GLabel 6550 5300 2    20   Input ~ 0
+Text GLabel 5950 5300 0    20   Input ~ 0
 12V
-Text GLabel 6550 5500 2    20   Input ~ 0
+Text GLabel 5950 5500 0    20   Input ~ 0
 12V
-Text GLabel 6550 5700 2    20   Input ~ 0
+Text GLabel 5950 5700 0    20   Input ~ 0
 12V
 $Comp
 L Device:R_Small_US R17
 U 1 1 5BDB8764
-P 7350 5300
-F 0 "R17" V 7555 5300 50  0000 C CNN
-F 1 "R_Small_US" V 7464 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7350 5300 50  0001 C CNN
-F 3 "~" H 7350 5300 50  0001 C CNN
-	1    7350 5300
-	0    -1   -1   0   
+P 7000 5300
+F 0 "R17" V 7205 5300 50  0000 C CNN
+F 1 "R_Small_US" V 7114 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 5300 50  0001 C CNN
+F 3 "~" H 7000 5300 50  0001 C CNN
+	1    7000 5300
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R18
 U 1 1 5BDB876B
-P 7350 5500
-F 0 "R18" V 7555 5500 50  0000 C CNN
-F 1 "R_Small_US" V 7464 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7350 5500 50  0001 C CNN
-F 3 "~" H 7350 5500 50  0001 C CNN
-	1    7350 5500
-	0    -1   -1   0   
+P 7000 5500
+F 0 "R18" V 7205 5500 50  0000 C CNN
+F 1 "R_Small_US" V 7114 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 5500 50  0001 C CNN
+F 3 "~" H 7000 5500 50  0001 C CNN
+	1    7000 5500
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R19
 U 1 1 5BDB8772
-P 7350 5700
-F 0 "R19" V 7555 5700 50  0000 C CNN
-F 1 "R_Small_US" V 7464 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7350 5700 50  0001 C CNN
-F 3 "~" H 7350 5700 50  0001 C CNN
-	1    7350 5700
-	0    -1   -1   0   
+P 7000 5700
+F 0 "R19" V 7205 5700 50  0000 C CNN
+F 1 "R_Small_US" V 7114 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 5700 50  0001 C CNN
+F 3 "~" H 7000 5700 50  0001 C CNN
+	1    7000 5700
+	0    1    -1   0   
 $EndComp
-Text GLabel 7450 5300 2    20   Input ~ 0
+Text GLabel 6900 5300 0    20   Input ~ 0
 12V
-Text GLabel 7450 5500 2    20   Input ~ 0
+Text GLabel 6900 5500 0    20   Input ~ 0
 12V
-Text GLabel 7450 5700 2    20   Input ~ 0
+Text GLabel 6900 5700 0    20   Input ~ 0
 12V
+$Comp
+L w_connectors:HEADER_2 J6
+U 1 1 5BDBA70B
+P 8950 3050
+F 0 "J6" H 9077 3103 60  0000 L CNN
+F 1 "HEADER_2" H 9077 2997 60  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 8950 3050 60  0001 C CNN
+F 3 "" H 8950 3050 60  0000 C CNN
+	1    8950 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8850 3100 0    20   Input ~ 0
+12V
+Text GLabel 8850 3000 0    20   UnSpc ~ 0
+GND
+$Comp
+L Switch:SW_Push BT_SVC1
+U 1 1 5BDD06CD
+P 8000 3600
+F 0 "BT_SVC1" H 8000 3885 50  0000 C CNN
+F 1 "SW_Push" H 8000 3794 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 8000 3800 50  0001 C CNN
+F 3 "" H 8000 3800 50  0001 C CNN
+	1    8000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push BT_TEST1
+U 1 1 5BDD0C03
+P 8000 4000
+F 0 "BT_TEST1" H 8000 4285 50  0000 C CNN
+F 1 "SW_Push" H 8000 4194 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 8000 4200 50  0001 C CNN
+F 3 "" H 8000 4200 50  0001 C CNN
+	1    8000 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3600 0    20   Output ~ 0
+BT_SVC
+Text GLabel 7800 4000 0    20   Output ~ 0
+BT_TEST
+Text GLabel 8200 3600 2    20   UnSpc ~ 0
+GND
+Text GLabel 8200 4000 2    20   UnSpc ~ 0
+GND
+$Comp
+L mega_voltex:MMBT2222AWT1G Q1
+U 1 1 5BE562DB
+P 1700 3450
+F 0 "Q1" H 1890 3496 50  0000 L CNN
+F 1 "MMBT2222AWT1G" H 1890 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1900 3375 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1700 3450 50  0001 L CNN
+	1    1700 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mega_voltex:MMBT2222AWT1G Q3
+U 1 1 5BE56354
+P 1700 4150
+F 0 "Q3" H 1890 4196 50  0000 L CNN
+F 1 "MMBT2222AWT1G" H 1890 4105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1900 4075 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1700 4150 50  0001 L CNN
+	1    1700 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mega_voltex:MMBT2222AWT1G Q2
+U 1 1 5BE563D1
+P 1200 3800
+F 0 "Q2" H 1390 3846 50  0000 L CNN
+F 1 "MMBT2222AWT1G" H 1390 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1400 3725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1200 3800 50  0001 L CNN
+	1    1200 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mega_voltex:RGBLED_CREE_CLP6C D1
+U 1 1 5BE5ED91
+P 4500 5500
+F 0 "D1" H 4500 5997 50  0000 C CNN
+F 1 "RGBLED_CREE_CLP6C" H 4500 5906 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 4500 5450 50  0001 C CNN
+F 3 "~" H 4500 5450 50  0001 C CNN
+	1    4500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mega_voltex:RGBLED_CREE_CLP6C D2
+U 1 1 5BE6018A
+P 5400 5500
+F 0 "D2" H 5400 5997 50  0000 C CNN
+F 1 "RGBLED_CREE_CLP6C" H 5400 5906 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 5400 5450 50  0001 C CNN
+F 3 "~" H 5400 5450 50  0001 C CNN
+	1    5400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mega_voltex:RGBLED_CREE_CLP6C D3
+U 1 1 5BE602B2
+P 6350 5500
+F 0 "D3" H 6350 5997 50  0000 C CNN
+F 1 "RGBLED_CREE_CLP6C" H 6350 5906 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 6350 5450 50  0001 C CNN
+F 3 "~" H 6350 5450 50  0001 C CNN
+	1    6350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mega_voltex:RGBLED_CREE_CLP6C D4
+U 1 1 5BE60561
+P 7300 5500
+F 0 "D4" H 7300 5997 50  0000 C CNN
+F 1 "RGBLED_CREE_CLP6C" H 7300 5906 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 7300 5450 50  0001 C CNN
+F 3 "~" H 7300 5450 50  0001 C CNN
+	1    7300 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
